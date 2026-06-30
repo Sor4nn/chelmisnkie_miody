@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pszczoły na tle złotego pola">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf8ef"/>
+      <stop offset="100%" stop-color="#f0c94b" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0c94b"/>
+      <stop offset="100%" stop-color="#a67c00"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <path d="M0,500 Q400,420 800,500 T1600,500 L1600,900 L0,900 Z" fill="url(#field)"/>
+  <g fill="#5c3d2e" opacity="0.4">
+    <circle cx="200" cy="600" r="6"/>
+    <circle cx="350" cy="650" r="4"/>
+    <circle cx="500" cy="580" r="5"/>
+    <circle cx="700" cy="640" r="6"/>
+    <circle cx="900" cy="600" r="4"/>
+    <circle cx="1100" cy="660" r="5"/>
+    <circle cx="1300" cy="610" r="6"/>
+    <circle cx="1450" cy="640" r="4"/>
+  </g>
+  <g fill="#a67c00" opacity="0.5">
+    <ellipse cx="300" cy="700" rx="40" ry="8"/>
+    <ellipse cx="800" cy="720" rx="50" ry="10"/>
+    <ellipse cx="1200" cy="700" rx="45" ry="9"/>
+  </g>
+  <g transform="translate(800 200)">
+    <ellipse cx="0" cy="0" rx="60" ry="40" fill="#5c3d2e"/>
+    <ellipse cx="0" cy="-30" rx="40" ry="30" fill="#5c3d2e"/>
+    <ellipse cx="-25" cy="-50" rx="18" ry="14" fill="#fff" stroke="#5c3d2e" stroke-width="2"/>
+    <ellipse cx="25" cy="-50" rx="18" ry="14" fill="#fff" stroke="#5c3d2e" stroke-width="2"/>
+    <circle cx="-25" cy="-50" r="6" fill="#3b2a1a"/>
+    <circle cx="25" cy="-50" r="6" fill="#3b2a1a"/>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#d4a017">
+  <title>Strona nie znaleziona (404) | Pasieka Las</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-honey: #d4a017;
+      --color-honey-dark: #a67c00;
+      --color-brown: #5c3d2e;
+      --color-cream: #fdf8ef;
+      --color-text: #3b2a1a;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', system-ui, sans-serif;
+      background: var(--color-cream);
+      color: var(--color-text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    main { max-width: 480px; }
+    .code {
+      font-size: clamp(5rem, 18vw, 9rem);
+      font-weight: 700;
+      color: var(--color-honey);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: var(--color-brown);
+      margin-bottom: 0.75rem;
+    }
+    p {
+      color: var(--color-text);
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    a {
+      display: inline-block;
+      padding: 0.9rem 2.4rem;
+      background: var(--color-honey);
+      color: #fff;
+      font-weight: 600;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    a:hover {
+      background: var(--color-honey-dark);
+      transform: translateY(-2px);
+    }
+    a:focus-visible {
+      outline: 3px solid var(--color-honey-dark);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="code" aria-hidden="true">404</div>
+    <h1>Strona nie została znaleziona</h1>
+    <p>Wygląda na to, że ta strona wyleciała z ula. Wróć do strony głównej i odkryj nasze miody.</p>
+    <a href="/">Wróć do strony głównej</a>
+  </main>
+</body>
+</html>

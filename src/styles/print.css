@@ -1,0 +1,74 @@
+@media print {
+  /* Print styles — readable, ink-friendly, no nav/footer chrome. */
+
+  @page {
+    margin: 1.5cm;
+  }
+
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  a[href^="http"]::after,
+  a[href^="mailto:"]::after,
+  a[href^="tel:"]::after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+    color: #555;
+  }
+
+  .navbar,
+  .hero,
+  .footer,
+  .contact__form,
+  .skip-link,
+  .scroll-indicator,
+  .cta-band,
+  .featured__badge,
+  .card--bestseller::after {
+    display: none !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  .section,
+  .about,
+  .featured,
+  .offer,
+  .process,
+  .testimonials,
+  .faq,
+  .contact {
+    padding: 1rem 0 !important;
+    page-break-inside: avoid;
+  }
+
+  .section-title,
+  h1,
+  h2,
+  h3 {
+    color: #000 !important;
+    page-break-after: avoid;
+  }
+
+  .btn {
+    display: none !important;
+  }
+}
+
